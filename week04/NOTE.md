@@ -1,15 +1,6 @@
 ## pandas学习总结
 
-
-
-
-
-
-
-
-
-
-一、Pandas数据结构
+## 一、Pandas数据结构
 
 1、import pandas as pd
 
