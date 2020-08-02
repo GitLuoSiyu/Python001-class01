@@ -1,6 +1,38 @@
 ## Django在使用中的一些技巧
 
 
+## 页面的用户访问量统计
+
+### 安装
+安装django-tracking 或 django-tracking2
+```
+pip install django-tracking
+
+pip install django-tracking2
+```
+Note会出错： no module named listeners
+
+```
+解决方案: pip install git+https://github.com/bashu/django-tracking.git
+```
+### 配置
+```python
+First of all, you must add this project to your list of INSTALLED_APPS insettings.py:
+
+INSTALLED_APPS = (
+
+'django.contrib.admin',
+'django.contrib.auth',
+'django.contrib.contenttypes',
+'django.contrib.sessions',
+'django.contrib.sites',
+...
+'tracking',
+...
+)
+```
+
+
 
 
 
