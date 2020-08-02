@@ -2,6 +2,8 @@
 
 ## 学号：G20200447010064
 
+## https://github.com/GitLuoSiyu/Python001-class01/tree/master/week04
+
 ## 讲师课件下载地址
 
 请大家通过该链接查看讲师课件并进行下载， 链接: https://pan.baidu.com/s/1bwl0b6ooKKzBi0tc_MCB_w 密码:1iu4
