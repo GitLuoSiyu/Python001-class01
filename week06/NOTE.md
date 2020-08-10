@@ -15,6 +15,8 @@ Note会出错： no module named listeners
 ```
 解决方案: pip install git+https://github.com/bashu/django-tracking.git
 ```
+
+
 ### 配置
 ```python
 First of all, you must add this project to your list of INSTALLED_APPS insettings.py:
