@@ -27,7 +27,7 @@ class Zoo(object):
     def __init__(self, name):
         self.name = name
         self.animals = []
-    #“添加动物”方法要实现同一只动物（同一个动物实例）不能被重复添加的功能。
+    # '添加动物' 方法要实现同一只动物（同一个动物实例）不能被重复添加的功能。
     def add_animal(self, animal_name):
         if animal_name not in self.animals:
             self.animals.append(animal_name)
@@ -47,3 +47,4 @@ if __name__ == '__main__':
 	
     # 动物园是否有猫这种动物
     have_cat = getattr(z, 'Cat')
+    
